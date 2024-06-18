@@ -1,4 +1,4 @@
-// src/components/SignUp.js
+
 import React, { useState } from "react";
 import { auth, db } from "../../firebase";
 import { Link, useNavigate } from "react-router-dom";

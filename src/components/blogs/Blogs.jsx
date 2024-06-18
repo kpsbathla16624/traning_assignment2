@@ -21,12 +21,12 @@ export default function Blogs() {
           id: doc.id,
           ...doc.data(),
         }));
-        console.log('Fetched Data:', newData); // Debugging log
+        console.log('Fetched Data:', newData); 
         setData(newData);
         setLoading(false);
       },
       (error) => {
-        console.error('Error fetching data:', error); // Debugging log
+        console.error('Error fetching data:', error); 
         setError(error);
         setLoading(false);
       }
